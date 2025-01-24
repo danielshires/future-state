@@ -7,6 +7,7 @@ import ErrorPage from './error-page.tsx';
 import FutureState from './Routes/future-state.tsx';
 import Goal from './Routes/ten-percent.tsx';
 import BuildProducts from './Routes/build-products.tsx';
+import Marathon from './Routes/marathon.tsx';
 
 const router = createBrowserRouter([
 	{
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
   {
 		path: 'future-state/build-products',
 		element: <BuildProducts />,
+	},
+	{
+		path: 'future-state/marathon',
+		element: <Marathon />,
 	},
 ]);
 

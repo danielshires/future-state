@@ -1,10 +1,10 @@
 import Breadcrumb from '../Components/Breadcrumb'
 import Data from '../assets/data'
 
-const Goal = () => {
-  const goalData = Data[0]
+const Marathon = () => {
+  const goalData = Data[2]
   const paragraphs = goalData.description.split('\n').map((text, index) => (
-    <p key={index} className="mb-1">
+    <p key={index} className="mb-2">
       {text}
     </p>
   ))
@@ -14,7 +14,7 @@ const Goal = () => {
       <div className="flex row gap-4 items-center">
         <Breadcrumb name={'Home'} route={'/'} /> /
         <Breadcrumb name={'Future state'} route={'/future-state'} /> /
-        <Breadcrumb name={'01'} route={''} />
+        <Breadcrumb name={`03`} route={''} />
       </div>
       <div className="font-serif text-md grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div>
@@ -36,4 +36,4 @@ const Goal = () => {
   )
 }
 
-export default Goal
+export default Marathon

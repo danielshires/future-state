@@ -17,14 +17,14 @@ const Goals = [
 		category: ['career','design']
 
 	},
-	// {
-	// 	goalNumber: 3,
-	// 	name: 'Help and inspire the next generation of designers',
-	// 	description: 'ad',
-	// 	route: 'help-and-inspire',
-	// 	goalDuration: 10,
-	// 	category: ['career','design', 'mentorship', 'education']
-	// },
+	{
+		goalNumber: 3,
+		name: 'Complete my third marathon',
+		description: 'This year my goal is to complete my third marathon.\nIt’s been 10 years since my last one and it feels like the right thing to do.\nGetting out of my comfort zone is front and center in my mind at the moment, and completing my third marathon will help me towards this.',
+		route: 'marathon',
+		goalDuration: 1,
+		category: ['career','design', 'mentorship', 'education']
+	},
 	// {
 	// 	goalNumber: 4,
 	// 	name: 'Complete a Post-Graduate course in Design',
