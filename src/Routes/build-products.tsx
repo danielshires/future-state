@@ -1,4 +1,4 @@
-import Breadcrumb from '../Components/Breadcrumb'
+import Breadcrumb from '../Components/breadcrumb'
 import Data from '../assets/data'
 
 const BuildProducts = () => {

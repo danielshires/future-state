@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import Breadcrumb from './Components/Breadcrumb'
-import Timer from './Components/Timer'
+import Breadcrumb from './Components/breadcrumb'
+import Timer from './Components/timer'
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import Breadcrumb from '../Components/Breadcrumb'
+import Breadcrumb from '../Components/breadcrumb'
 import LinkGroup from '../Components/LinkGroup'
 
 const FutureState = () => {
